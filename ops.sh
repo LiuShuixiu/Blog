@@ -4,7 +4,7 @@ function push_function() {
     read -p "enter the commit for this push: " commit
     git add .
     git commit -m "$commit"
-    git push
+    git push origin main
 }
 
 
