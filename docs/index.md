@@ -7,8 +7,11 @@ heroText: 一万年太久,只争朝夕
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
-pageClass: vdoing-index-class
 # bannerBg: /img/index/bg.png  # 你的图片路径(必须位于 public 下)，可以是 URL
+
+pageClass: vdoing-index-class
+
+
 #features: # 可选的
   # - title: 前端
   #   details: JavaScript、ES6、Vue框架等前端技术

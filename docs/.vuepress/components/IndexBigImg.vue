@@ -18,8 +18,8 @@ export default {
         "rgba(0, 0, 0, .3)",
         "rgba(0, 0, 0, .5)",
       ],
-      descFade: true,
-      desc: ["关山难越，谁悲失路之人", "萍水相逢，尽是他乡之客"],
+      descFade: false,
+      desc: [],
       descFadeInTime: 200,
       descFadeOutTime: 100,
       descNextTime: 800,
@@ -58,7 +58,7 @@ export default {
     this.blurText();
     this.watchScroll();
 
-    if (true) {
+    if (this.descFade) {
       this.textFadeInAndOut();
     }
     if (this.bubble) {
@@ -102,26 +102,26 @@ export default {
           this.$themeConfig.indexImg.bgTimeColorArray == undefined
             ? this.bgTimeColorArray
             : this.$themeConfig.indexImg.bgTimeColorArray;
-        // this.descFade =
-        //   this.$themeConfig.indexImg.descFade == undefined
-        //     ? this.descFade
-        //     : this.$themeConfig.indexImg.descFade;
-        // this.desc =
-        //   this.$themeConfig.indexImg.desc == undefined
-        //     ? this.desc
-        //     : this.$themeConfig.indexImg.desc;
-        // this.descFontSize =
-        //   this.$themeConfig.indexImg.descFontSize == undefined
-        //     ? this.descFontSize
-        //     : this.$themeConfig.indexImg.descFontSize;
-        // this.descFadeInTime =
-        //   this.$themeConfig.indexImg.descFadeInTime == undefined
-        //     ? this.descFadeInTime
-        //     : this.$themeConfig.indexImg.descFadeInTime;
-        // this.descNextTime =
-        //   this.$themeConfig.indexImg.descNextTime == undefined
-        //     ? this.descNextTime
-        //     : this.$themeConfig.indexImg.descNextTime;
+        this.descFade =
+          this.$themeConfig.indexImg.descFade == undefined
+            ? this.descFade
+            : this.$themeConfig.indexImg.descFade;
+        this.desc =
+          this.$themeConfig.indexImg.desc == undefined
+            ? this.desc
+            : this.$themeConfig.indexImg.desc;
+        this.descFontSize =
+          this.$themeConfig.indexImg.descFontSize == undefined
+            ? this.descFontSize
+            : this.$themeConfig.indexImg.descFontSize;
+        this.descFadeInTime =
+          this.$themeConfig.indexImg.descFadeInTime == undefined
+            ? this.descFadeInTime
+            : this.$themeConfig.indexImg.descFadeInTime;
+        this.descNextTime =
+          this.$themeConfig.indexImg.descNextTime == undefined
+            ? this.descNextTime
+            : this.$themeConfig.indexImg.descNextTime;
         this.bubble =
           this.$themeConfig.indexImg.bubble == undefined
             ? this.bubble
@@ -253,7 +253,7 @@ export default {
       descNextTime = this.descNextTime // 下一个描述出现时间
     ) {
       let descElement = document.getElementsByClassName("description")[0];
-
+      
       if (descElement) {
         // 非首页不触发
         descElement.style.fontSize = descFontSize;
@@ -567,7 +567,7 @@ function nextAllTipElement(elem) {
   z-index: 999;
 }
 
-@-webkit-keyframes bounce-in {
+/* @-webkit-keyframes bounce-in {
   0% {
     transform: translateY(0);
   }
@@ -587,7 +587,7 @@ function nextAllTipElement(elem) {
   to {
     transform: translateY(0);
   }
-}
+} */
 
 .banner-arrow::before {
   content: "";
