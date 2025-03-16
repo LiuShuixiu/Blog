@@ -19,6 +19,7 @@ function print_menu() {
 	echo "4.push again"
     echo "5.pull"
     echo "6.push to io"
+    echo "7.push to io again"
     echo -e "\033[34m===================================\033[0m"
 }
 
@@ -27,7 +28,7 @@ while true; do
     
 	print_menu
     
-    read -p "enter the operation (1-6, or c to exit): " n
+    read -p "enter the operation (1-7, or c to exit): " n
 
     case $n in
         1) 
@@ -48,6 +49,8 @@ while true; do
 			;;
         6) 
 			sh deploy.sh ;;
+        7) 
+			sh deploy_again.sh ;;
 		c)
 			echo "Exiting..."; exit 0 ;;
         *)
