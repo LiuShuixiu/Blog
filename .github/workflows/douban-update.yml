@@ -1,0 +1,43 @@
+name: Update Douban Data
+
+on:
+  schedule:
+    # 每 12 小时更新一次（UTC 0/12 点 = 北京时间 8/20 点）
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Fetch Douban data
+        run: |
+          node utils/douban/fetch_douban.js
+        env:
+          DOUBAN_USER_ID: "193640565"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add docs/.vuepress/public/douban
+            git commit -m "chore: update douban data"
+            git push origin HEAD:main
+          else
+            echo "No changes, skip push."
+          fi

@@ -1,0 +1,37 @@
+{
+  "updatedAt": "2026-09-05T09:23:29.070Z",
+  "source": "douban",
+  "userId": "193640565",
+  "type": "book",
+  "total": 2,
+  "items": [
+    {
+      "id": "34940381",
+      "title": "Caging skies",
+      "cover": "/douban/covers/book_34940381.jpg",
+      "url": "https://book.douban.com/subject/34940381/",
+      "status": "读过",
+      "date": "2020-02-10",
+      "myRating": 4,
+      "myRatingText": "推荐",
+      "comment": "",
+      "intro": "Christine Leunens / The Overlook Press",
+      "rating": 7.5,
+      "ratingCount": 22
+    },
+    {
+      "id": "4242172",
+      "title": "天才在左 疯子在右",
+      "cover": "/douban/covers/book_4242172.jpg",
+      "url": "https://book.douban.com/subject/4242172/",
+      "status": "读过",
+      "date": "2020-01-23",
+      "myRating": 1,
+      "myRatingText": "很差",
+      "comment": "",
+      "intro": "高铭 / 武汉大学出版社 / 2010-2 / 29.80元",
+      "rating": 7.9,
+      "ratingCount": 242481
+    }
+  ]
+}
