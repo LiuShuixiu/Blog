@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T02:59:13.992Z",
+  "updatedAt": "2026-09-08T15:57:43.148Z",
   "source": "douban",
   "userId": "193640565",
   "type": "anime",
@@ -18,7 +18,7 @@
       "intro": "2025-05-15(美国) / 安东尼·凯迪斯 / 弗利 / 约翰·弗拉西特 / 查德·史密斯 / 艾米丽·奥布莱恩 / 费奥多尔·钱恩 / 彼得·迈克尔 / 素玛立·蒙塔诺 / 约翰·博耶加 / 艾德·斯克林 / 美国 / 大卫·芬奇 / 罗伯特·比斯 / 安迪·里昂 / 吕寅荣 / 罗伯特·瓦利 / 帕特里克·奥斯本 / 蒂姆·米勒 / 迭戈·波拉尔 / 埃米莉·迪恩 / 爱，死亡和机器人 / 15分钟 / 爱，死亡和机器人 / 剧情 / 喜剧 / 动作 / 科幻 / 动画 / 奇幻 / 冒险 / 恐怖 / 罗伯特·比斯 Robert Bisi / 安迪·里昂 Andy Lyon / 乔·阿克罗比 Joe Abercrombie / 蒂姆·米勒 Tim Miller / 约翰·斯卡尔齐 John Scalzi / J·T·佩蒂 J.T. Petty / 塔姆辛·缪尔 Tamsyn Muir / 英语 / 汉语普通话",
       "kind": "anime",
       "rating": 4.8,
-      "ratingCount": 72569
+      "ratingCount": 72578
     },
     {
       "id": "34418203",
@@ -33,7 +33,7 @@
       "intro": "2021-05-14(美国) / 诺兰·诺斯 / 艾米丽·奥布莱恩 / 艾洛蒂·袁 / 艾克·阿玛迪 / 米歇尔·C·博尼拉 / 诺希尔·达拉尔 / 安德鲁·霍克斯 / 德博拉·卡尔多纳 / 阿亚娜·哈威夫 / 史蒂文·佩西 / 美国 / 蒂姆·米勒 / 肉食部门 / 罗伯特·瓦利 / 吕寅荣 / 里昂·贝雷尔 / 多米尼克·博伊丁 / 雷米·科季拉 / 马克西姆·卢埃尔 / 西蒙·奥托 / 艾略特·迪尔 / 爱，死亡和机器人 / 10分钟 / 爱，死亡和机器人 / 剧情 / 喜剧 / 动作 / 科幻 / 动画 / 奇幻 / 恐怖 / 短片 / 蒂姆·米勒 Tim Miller / 约翰·斯卡尔齐 John Scalzi / Meat Dept / Rich Larson / 菲利普·盖拉特 Philip Gelatt / Paolo Bacigalupi / Neal Asher / 乔·R·兰斯代尔 Joe R. Lansdale / Joachim Heijndermans / 哈尔兰·艾莉森 Harlan Ellison / J·G·巴拉德 J.G. Ballard / 英语",
       "kind": "anime",
       "rating": 6.9,
-      "ratingCount": 234555
+      "ratingCount": 234562
     }
   ],
   "sourceType": "tv"
