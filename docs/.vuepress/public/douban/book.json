@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T02:59:53.855Z",
+  "updatedAt": "2026-09-09T15:53:40.077Z",
   "source": "douban",
   "userId": "193640565",
   "type": "book",
@@ -31,7 +31,7 @@
       "comment": "",
       "intro": "高铭 / 武汉大学出版社 / 2010-2 / 29.80元",
       "rating": 7.9,
-      "ratingCount": 242487
+      "ratingCount": 242485
     }
   ]
 }
